@@ -9,6 +9,7 @@ from selenium.webdriver.chrome.service import Service
 S = Service("D:\\chromedriver.exe")
 driver = webdriver.Chrome(service=S)
 driver.get("https://www.hexahealth.com/treatment/piles-stapler-surgery")
+
 driver.maximize_window()
 driver.implicitly_wait(5)
 one = driver.find_element(By.XPATH,"//*[@id='slick-slide-control01']")
