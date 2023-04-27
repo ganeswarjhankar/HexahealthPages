@@ -1,3 +1,7 @@
+def DOB():
+    pass
+
+
 class Person:
     def __init__(self):
         self.name="durga"
@@ -17,6 +21,6 @@ class Person:
         def Display(self):
             print("date of birth is :{}/{}/{}".format("dd","mm","yyyy"))
 
-p=Person
+p=Person()
 p.display()
 
